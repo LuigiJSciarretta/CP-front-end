@@ -1,0 +1,277 @@
+/* TITULOS,SUBITITULOS E TEXTOS*/
+
+.titulos{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: bold;
+}
+
+.subtitulos{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*DIV'S E CONTAINERS*/
+
+/* divs universais*/
+
+.div-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px; 
+    padding: 10px;
+    margin-bottom: 26px;
+    margin-top: 26px;
+}
+
+.div-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px ;
+}
+
+.div-titulos1{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 26px ;
+}
+
+.container-titulos{
+    border: 2px;
+    border-top: 1px;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.botao-inicial{
+    border: 2px;
+    border-top: 1px;
+    border-radius: 10px;
+    border-style: ridge;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: black;
+}
+
+.botao-proximo{
+    border: 2px;
+    border-top: 1px;
+    border-radius: 10px;
+    border-style: ridge;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: black;
+}
+
+.botao-anterior{
+    border: 2px;
+    border-top: 1px;
+    border-radius: 10px;
+    border-style: ridge;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: black;
+}
+
+.botao-cursos{
+    border: 2px;
+    border-top: 1px;
+    border-radius: 10px;
+    border-style: ridge;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: black;
+}
+
+.propaganda{
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    border: 2px black;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.imagem-prpaganda{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+/* imagens */
+
+
+.imagem-adm{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    border: 8px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.curso-ads{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.curso-engenharia-da-computação{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.curso-produção{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.curso-mecatronica{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.curso-de-banco-de-dados{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-color: #009ADA;
+    border-radius: 10px;
+}
+
+.curso-gti{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.curso-jogos-digitais{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: black; 
+}
+
+.curso-sistemas-de-informação{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px; 
+}
+
+.curso-internet{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-radius: 10px; 
+    border-color: black;
+}
+
+.curso-de-redes-de-computadores{
+    max-width: 100%;
+    max-height: 100%;
+    width: 450px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 8px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: black; 
+}

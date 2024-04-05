@@ -1,0 +1,28 @@
+.image {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    align-items: center ;
+}
+
+.botao{
+    border: 2px;
+    border-top: 1px;
+    border-radius: 10px;
+    border-style: ridge;
+    display: inline-block;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: black;
+}
+
+.body {
+    background-color: #BFBFBF;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
